@@ -2423,6 +2423,12 @@
     ?:  =(~ snaps.sap.lex)
       snap.snap
     $
+  ::
+      %ships-with-deeds
+    ?.  ?=(~ tyl)  [~ ~]
+    :^  ~  ~  %noun  !>
+    ^-  (set @p)
+    ~(key by kyz.puk.sub.lex)
   ==
 ::                                                      ::  ++stay
 ++  stay                                                ::  preserve
